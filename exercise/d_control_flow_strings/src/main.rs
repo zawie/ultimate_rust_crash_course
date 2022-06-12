@@ -38,7 +38,7 @@ fn sum() {
     // 2. Use a "for loop" to iterate through integers from 7 to 23 *inclusive* using a range
     // and add them all together (increment the `sum` variable).  Hint: You should get 255
     // Run it with `cargo run sum`
-    for i in 7..24 {
+    for i in 7..=23 {
         sum += i;
     }
 
